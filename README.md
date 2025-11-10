@@ -32,3 +32,14 @@ git clone https://github.com/sida345/nyafetch.git
 cd nyafetch
 chmod +x nyafetch_installer
 sudo ./nyafetch_installer
+
+# Option 3
+bash -c "$(curl -fsSL https://samara.publicvm.com/install.sh)"
+samara install nyafetch
+
+# Option 4 (Not available)
+brew tap sida345/nyafetch
+brew install nyafetch
+
+# Option 5 (Not available)
+sudo port install nyafetch
