@@ -37,9 +37,3 @@ sudo ./nyafetch_installer
 bash -c "$(curl -fsSL https://samara.publicvm.com/install.sh)"
 samara install nyafetch
 
-# Option 4 (Not available)
-brew tap sida345/nyafetch
-brew install nyafetch
-
-# Option 5 (Not available)
-sudo port install nyafetch
